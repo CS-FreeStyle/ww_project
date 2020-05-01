@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/vncpasswd.dir/vncpasswd.c.o  -o ../../bin/vncpasswd -lSM -lICE -lX11 -lXext ../../lib/libvncauth.a 

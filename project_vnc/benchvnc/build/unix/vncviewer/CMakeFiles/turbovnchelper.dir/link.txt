@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG -z defs -shared -Wl,-soname,libturbovnchelper.so -o ../../java/libturbovnchelper.so CMakeFiles/turbovnchelper.dir/turbovnchelper.c.o -lSM -lICE -lX11 -lXext -lXi -ldl 

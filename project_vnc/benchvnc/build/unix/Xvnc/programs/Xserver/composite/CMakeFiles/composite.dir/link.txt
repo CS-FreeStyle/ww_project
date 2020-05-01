@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../lib/libcomposite.a  CMakeFiles/composite.dir/compalloc.c.o CMakeFiles/composite.dir/compext.c.o CMakeFiles/composite.dir/compinit.c.o CMakeFiles/composite.dir/compoverlay.c.o CMakeFiles/composite.dir/compwindow.c.o
+/usr/bin/ranlib ../../../../../lib/libcomposite.a

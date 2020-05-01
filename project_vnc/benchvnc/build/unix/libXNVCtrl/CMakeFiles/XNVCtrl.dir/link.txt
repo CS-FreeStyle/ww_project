@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libXNVCtrl.a  CMakeFiles/XNVCtrl.dir/NVCtrl.c.o
+/usr/bin/ranlib ../../lib/libXNVCtrl.a

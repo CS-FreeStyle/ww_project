@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../lib/libxfixes.a  CMakeFiles/xfixes.dir/cursor.c.o CMakeFiles/xfixes.dir/region.c.o CMakeFiles/xfixes.dir/saveset.c.o CMakeFiles/xfixes.dir/select.c.o CMakeFiles/xfixes.dir/xfixes.c.o
+/usr/bin/ranlib ../../../../../lib/libxfixes.a

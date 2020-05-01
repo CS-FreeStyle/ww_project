@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../../lib/libdamage.a  CMakeFiles/damage.dir/damage.c.o
+/usr/bin/ranlib ../../../../../../lib/libdamage.a

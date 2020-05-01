@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libXau.a  CMakeFiles/Xau.dir/AuDispose.c.o CMakeFiles/Xau.dir/AuFileName.c.o CMakeFiles/Xau.dir/AuGetAddr.c.o CMakeFiles/Xau.dir/AuGetBest.c.o CMakeFiles/Xau.dir/AuLock.c.o CMakeFiles/Xau.dir/AuRead.c.o CMakeFiles/Xau.dir/AuUnlock.c.o CMakeFiles/Xau.dir/AuWrite.c.o
+/usr/bin/ranlib ../../../../lib/libXau.a

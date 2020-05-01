@@ -1,0 +1,96 @@
+#!/bin/sh
+
+set -u
+set -e
+trap onexit INT
+trap onexit TERM
+trap onexit EXIT
+
+TMPDIR=
+SUDO=
+
+onexit()
+{
+	if [ ! "$TMPDIR" = "" ]; then
+		$SUDO rm -rf $TMPDIR
+	fi
+}
+
+uid()
+{
+	id | cut -f2 -d = | cut -f1 -d \(;
+}
+
+safedirmove ()
+{
+	if [ "$1" = "$2" ]; then
+		return 0
+	fi
+	if [ "$1" = "" -o ! -d "$1" ]; then
+		echo safedirmove: source dir $1 is not valid
+		return 1
+	fi
+	if [ "$2" = "" -o -e "$2" ]; then
+		echo safedirmove: dest dir $2 is not valid
+		return 1
+	fi
+	if [ "$3" = "" -o -e "$3" ]; then
+		echo safedirmove: tmp dir $3 is not valid
+		return 1
+	fi
+	mkdir -p $3
+	mv $1/* $3/
+	rmdir $1
+	mkdir -p $2
+	mv $3/* $2/
+	rmdir $3
+	return 0
+}
+
+PKGNAME=turbovnc
+VERSION=2.1.91
+DEBARCH=amd64
+SRCDIR=/home/jerry/Documents/jerry/benchvnc
+BINDIR=/opt/TurboVNC/bin
+DOCDIR=/opt/TurboVNC/doc
+SYSCONFDIR=/opt/TurboVNC/etc
+BUILDSERVER=1
+
+if [ ! `uid` -eq 0 ]; then
+	SUDO=sudo
+fi
+
+umask 022
+rm -f $PKGNAME\_$DEBARCH.deb
+TMPDIR=`mktemp -d /tmp/$PKGNAME-build.XXXXXX`
+mkdir $TMPDIR/DEBIAN
+
+make install DESTDIR=$TMPDIR
+
+if [ ! "$DOCDIR" = "/usr/share/doc/$PKGNAME-$VERSION" ]; then
+	safedirmove $TMPDIR/$DOCDIR $TMPDIR/usr/share/doc/$PKGNAME-$VERSION $TMPDIR/__tmpdoc
+fi
+if [ "$BUILDSERVER" = "1" ]; then
+	if [ ! "$SYSCONFDIR" = "/etc" ]; then
+		safedirmove $TMPDIR/$SYSCONFDIR $TMPDIR/etc $TMPDIR/__tmpconf
+	fi
+fi
+
+mkdir -p $TMPDIR/usr/share/applications
+cat > $TMPDIR/usr/share/applications/tvncviewer.desktop <<EOF
+[Desktop Entry]
+Name=TurboVNC Viewer
+Comment=TurboVNC client application
+Exec=$BINDIR/vncviewer
+Terminal=0
+Type=Application
+Categories=Application;Utility;X-Red-Hat-Extra;
+EOF
+
+SIZE=`du -s $TMPDIR | cut -f1`
+cat pkgscripts/deb-control | sed s/{__SIZE}/$SIZE/g > $TMPDIR/DEBIAN/control
+
+$SUDO chown -Rh root:root $TMPDIR/*
+dpkg -b $TMPDIR $PKGNAME\_$VERSION\_$DEBARCH.deb
+
+exit

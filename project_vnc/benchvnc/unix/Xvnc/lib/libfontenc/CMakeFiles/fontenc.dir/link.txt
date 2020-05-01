@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libfontenc.a  CMakeFiles/fontenc.dir/src/encparse.c.o CMakeFiles/fontenc.dir/src/fontenc.c.o
+/usr/bin/ranlib ../../../../lib/libfontenc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libglapi-server.a  CMakeFiles/glapi-server.dir/src/mapi/glapi/glapi_dispatch.c.o CMakeFiles/glapi-server.dir/src/mapi/glapi/glapi_entrypoint.c.o CMakeFiles/glapi-server.dir/src/mapi/glapi/glapi_getproc.c.o CMakeFiles/glapi-server.dir/src/mapi/glapi/glapi_nop.c.o CMakeFiles/glapi-server.dir/src/mapi/glapi/glapi.c.o CMakeFiles/glapi-server.dir/src/mapi/u_current.c.o CMakeFiles/glapi-server.dir/src/mapi/u_execmem.c.o
+/usr/bin/ranlib ../../../../lib/libglapi-server.a

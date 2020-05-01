@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libsha1.a  CMakeFiles/sha1.dir/sha1.c.o
+/usr/bin/ranlib ../../../../lib/libsha1.a

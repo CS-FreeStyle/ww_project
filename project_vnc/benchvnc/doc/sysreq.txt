@@ -1,0 +1,66 @@
+* System Requirements
+
+** Linux/x86 and Other x86 Un*x Operating Systems
+
+|| || Server (x86) || Server (x86-64) || Client ||
+| Recommended CPU \
+	| {list type=ul: \
+			{item:For optimal performance, the CPU should support SSE2 \
+				extensions.} \
+			{item:Dual processors or dual cores recommended}} \
+	| Dual processors or dual cores recommended \
+	| For optimal performance, the CPU should support SSE2 extensions. \
+	|
+| O/S \
+	| TurboVNC should work with a variety of Linux distributions, \
+		[[http://www.freebsd.org][FreeBSD]], and \
+		[[http://www.oracle.com/us/products/servers-storage/solaris][Solaris]], \
+		but currently-supported versions of \
+		[[http://www.redhat.com/products/enterprise-linux/][Red Hat Enterprise Linux]] \
+		(and its work-alikes, including [[http://www.centos.org][CentOS]], \
+		[[http://www.oracle.com/us/technologies/linux][Oracle Linux]], and \
+		[[https://www.scientificlinux.org][Scientific Linux]]), \
+		[[http://www.ubuntu.com][Ubuntu]] LTS, and [[http://www.suse.com][SuSE]] \
+		Linux Enterprise tend to receive the most attention from the TurboVNC \
+		community. \
+	| < \
+	| < \
+	|
+| Other \
+	| {:} | {:} \
+	| {list type=ul: \
+			{item:For optimal performance, the X server should be configured to export \
+				True Color (24-bit or 32-bit) visuals.} \
+			{item:[[http://www.java.com][Oracle Java]] 8 or later, or OpenJDK 7 \
+				or later}} \
+	|
+#OPT: hiCol=first
+
+** Mac/x86
+
+|| || Client ||
+| Recommended CPU \
+	| Any 64-bit Intel-based Mac \
+	|
+| O/S \
+	| OS X 10.7 "Lion" or later \
+	|
+| Other Software \
+	| [[http://www.java.com][Oracle Java]] 8u40 or later \
+	|
+#OPT: hiCol=first
+
+** Windows
+
+|| || Client ||
+| Recommended CPU \
+	| For optimal performance, the CPU should support SSE2 extensions. \
+	|
+| O/S \
+	| Windows 2000 SP1 or later \
+	|
+| Other \
+	| For optimal performance, the client display should have a 24-bit or 32-bit (True \
+		Color) color depth. \
+	|
+#OPT: hiCol=first

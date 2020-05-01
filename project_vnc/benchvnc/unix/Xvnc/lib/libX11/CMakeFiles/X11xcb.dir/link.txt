@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libX11xcb.a  CMakeFiles/X11xcb.dir/src/XlibInt.c.o CMakeFiles/X11xcb.dir/src/globals.c.o CMakeFiles/X11xcb.dir/src/x11_xcb.c.o CMakeFiles/X11xcb.dir/src/xcb_io.c.o
+/usr/bin/ranlib ../../../../lib/libX11xcb.a

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/common/d3des/d3des.c
+d3des.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/common/d3des/d3des.h
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/common/d3des/d3des.h
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libvncauth/vncauth.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+time.h
+-
+unistd.h
+-
+vncauth.h
+-
+d3des.h
+-
+
+common/d3des/d3des.h
+
+unix/include/vncauth.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvncauth.a  CMakeFiles/vncauth.dir/vncauth.c.o CMakeFiles/vncauth.dir/__/__/common/d3des/d3des.c.o
+/usr/bin/ranlib ../../lib/libvncauth.a

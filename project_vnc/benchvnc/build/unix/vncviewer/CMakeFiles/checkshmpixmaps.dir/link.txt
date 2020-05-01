@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/checkshmpixmaps.dir/checkshmpixmaps.c.o  -o ../../bin/checkshmpixmaps -rdynamic -lSM -lICE -lX11 -lXext 

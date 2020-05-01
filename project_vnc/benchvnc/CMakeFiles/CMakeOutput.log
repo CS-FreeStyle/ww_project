@@ -1,0 +1,3214 @@
+The system is: Linux - 5.0.0-32-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jlucas/TurboVNC/benchvnc/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8030f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8030f.dir/build.make CMakeFiles/cmTC_8030f.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8030f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8030f.dir/testCCompiler.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8030f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8030f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8030f.dir/testCCompiler.c.o  -o cmTC_8030f 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f836d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f836d.dir/build.make CMakeFiles/cmTC_f836d.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f836d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f836d.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o  -o cmTC_f836d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f836d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckdblDA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f836d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f836d' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f836d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f836d.dir/build.make CMakeFiles/cmTC_f836d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f836d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f836d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o  -o cmTC_f836d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f836d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckdblDA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f836d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckdblDA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f836d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_f836d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd478/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd478.dir/build.make CMakeFiles/cmTC_bd478.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd478.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bd478.dir/feature_tests.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bd478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd478.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd478.dir/feature_tests.c.o  -o cmTC_bd478 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_944c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_944c5.dir/build.make CMakeFiles/cmTC_944c5.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_944c5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_944c5.dir/feature_tests.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_944c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944c5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_944c5.dir/feature_tests.c.o  -o cmTC_944c5 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef5b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef5b4.dir/build.make CMakeFiles/cmTC_ef5b4.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef5b4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ef5b4.dir/feature_tests.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef5b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5b4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef5b4.dir/feature_tests.c.o  -o cmTC_ef5b4 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test TURBOJPEG_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d10a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d10a.dir/build.make CMakeFiles/cmTC_6d10a.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d10a.dir/src.c.o
+/usr/bin/cc  -I/opt/libjpeg-turbo/include  -DTURBOJPEG_WORKS   -o CMakeFiles/cmTC_6d10a.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d10a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d10a.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_WORKS    -rdynamic CMakeFiles/cmTC_6d10a.dir/src.c.o  -o cmTC_6d10a /opt/libjpeg-turbo/lib64/libturbojpeg.a 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <turbojpeg.h>
+int main(void) { tjhandle h = tjInitCompress();  return h != 0 ? 0 : 1; }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8649d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8649d.dir/build.make CMakeFiles/cmTC_8649d.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8649d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_8649d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8649d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8649d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_8649d.dir/CheckFunctionExists.c.o  -o cmTC_8649d /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e7cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e7cb.dir/build.make CMakeFiles/cmTC_2e7cb.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e7cb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_2e7cb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e7cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e7cb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_2e7cb.dir/CheckFunctionExists.c.o  -o cmTC_2e7cb 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20a0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20a0c.dir/build.make CMakeFiles/cmTC_20a0c.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20a0c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_20a0c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20a0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a0c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_20a0c.dir/CheckFunctionExists.c.o  -o cmTC_20a0c 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2f2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2f2f.dir/build.make CMakeFiles/cmTC_e2f2f.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2f2f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_e2f2f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2f2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f2f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_e2f2f.dir/CheckFunctionExists.c.o  -o cmTC_e2f2f 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a3e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a3e3.dir/build.make CMakeFiles/cmTC_3a3e3.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a3e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_3a3e3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a3e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_3a3e3.dir/CheckFunctionExists.c.o  -o cmTC_3a3e3 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9cbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9cbe.dir/build.make CMakeFiles/cmTC_c9cbe.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9cbe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_c9cbe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9cbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9cbe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_c9cbe.dir/CheckFunctionExists.c.o  -o cmTC_c9cbe -lICE 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test TURBOJPEG_JNI_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_387d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_387d2.dir/build.make CMakeFiles/cmTC_387d2.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_387d2.dir/src.c.o
+/usr/bin/cc   -DTURBOJPEG_JNI_WORKS   -o CMakeFiles/cmTC_387d2.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_387d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_JNI_WORKS    -rdynamic CMakeFiles/cmTC_387d2.dir/src.c.o  -o cmTC_387d2 -Wl,-rpath,/opt/libjpeg-turbo/lib64 /opt/libjpeg-turbo/lib64/libturbojpeg.so 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	struct JNINativeInterface_;
+
+	typedef const struct JNINativeInterface_ *JNIEnv;
+
+	typedef struct _jobject *jobject;
+
+	typedef jobject jclass;
+
+	int Java_org_libjpegturbo_turbojpeg_TJ_bufSize
+
+		(JNIEnv *, jclass, int, int, int);
+
+	int main(void) {
+
+		Java_org_libjpegturbo_turbojpeg_TJ_bufSize(0, 0, 1, 1, 0);
+
+		return 0;
+
+	}
+Performing C SOURCE FILE Test FOUND_GLIBC succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03df0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03df0.dir/build.make CMakeFiles/cmTC_03df0.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03df0.dir/src.c.o
+/usr/bin/cc   -DFOUND_GLIBC   -o CMakeFiles/cmTC_03df0.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_03df0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03df0.dir/link.txt --verbose=1
+/usr/bin/cc  -DFOUND_GLIBC    -rdynamic CMakeFiles/cmTC_03df0.dir/src.c.o  -o cmTC_03df0 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	#include <features.h>
+
+	#ifndef __GLIBC__
+
+	#error
+
+	#endif
+
+	int main(void) { return 0; }
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d82e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d82e.dir/build.make CMakeFiles/cmTC_6d82e.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d82e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6d82e.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d82e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d82e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6d82e.dir/CheckSymbolExists.c.o  -o cmTC_6d82e 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2caca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2caca.dir/build.make CMakeFiles/cmTC_2caca.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2caca.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2caca.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2caca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2caca.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2caca.dir/CheckSymbolExists.c.o  -o cmTC_2caca 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f5ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f5ad.dir/build.make CMakeFiles/cmTC_0f5ad.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f5ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0f5ad.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0f5ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f5ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0f5ad.dir/CheckSymbolExists.c.o  -o cmTC_0f5ad 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6b2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6b2e.dir/build.make CMakeFiles/cmTC_b6b2e.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6b2e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6b2e.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b6b2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6b2e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b6b2e.dir/CheckSymbolExists.c.o  -o cmTC_b6b2e 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed085/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed085.dir/build.make CMakeFiles/cmTC_ed085.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed085.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w    -o CMakeFiles/cmTC_ed085.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ed085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed085.dir/link.txt --verbose=1
+/usr/bin/cc  -w     -rdynamic CMakeFiles/cmTC_ed085.dir/CheckSymbolExists.c.o  -o cmTC_ed085 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a0be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a0be.dir/build.make CMakeFiles/cmTC_6a0be.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a0be.dir/src.c.o
+/usr/bin/cc   -DHAVE_BUILTIN_CLZ   -o CMakeFiles/cmTC_6a0be.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6a0be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a0be.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BUILTIN_CLZ    -rdynamic CMakeFiles/cmTC_6a0be.dir/src.c.o  -o cmTC_6a0be 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	unsigned int x = 11;
+
+	int main (void) {
+
+		return __builtin_clz(x);
+
+	}
+Determining if the sendmsg exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95cb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95cb4.dir/build.make CMakeFiles/cmTC_95cb4.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95cb4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_95cb4.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_95cb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95cb4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_95cb4.dir/CheckSymbolExists.c.o  -o cmTC_95cb4 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sendmsg
+  return ((int*)(&sendmsg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cbrt exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1e81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1e81.dir/build.make CMakeFiles/cmTC_f1e81.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1e81.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f1e81.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f1e81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e81.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f1e81.dir/CheckSymbolExists.c.o  -o cmTC_f1e81 -lm 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cbrt
+  return ((int*)(&cbrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0440/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0440.dir/build.make CMakeFiles/cmTC_e0440.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0440.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e0440.dir/CheckIncludeFiles.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e0440
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0440.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e0440.dir/CheckIncludeFiles.c.o  -o cmTC_e0440 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the ffs exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c933e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c933e.dir/build.make CMakeFiles/cmTC_c933e.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c933e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_c933e.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c933e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c933e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c933e.dir/CheckSymbolExists.c.o  -o cmTC_c933e 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ffs
+  return ((int*)(&ffs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getdtablesize exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_570f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_570f9.dir/build.make CMakeFiles/cmTC_570f9.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_570f9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_570f9.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_570f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_570f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_570f9.dir/CheckSymbolExists.c.o  -o cmTC_570f9 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getdtablesize
+  return ((int*)(&getdtablesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getifaddrs exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb30b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb30b.dir/build.make CMakeFiles/cmTC_fb30b.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb30b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_fb30b.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb30b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb30b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb30b.dir/CheckSymbolExists.c.o  -o cmTC_fb30b 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ifaddrs.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getifaddrs
+  return ((int*)(&getifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the reallocarray exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_494b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_494b9.dir/build.make CMakeFiles/cmTC_494b9.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_494b9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_494b9.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_494b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_494b9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_494b9.dir/CheckSymbolExists.c.o  -o cmTC_494b9 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef reallocarray
+  return ((int*)(&reallocarray))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6950/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6950.dir/build.make CMakeFiles/cmTC_f6950.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6950.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_f6950.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f6950
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6950.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f6950.dir/CheckSymbolExists.c.o  -o cmTC_f6950 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_203d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_203d8.dir/build.make CMakeFiles/cmTC_203d8.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_203d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_203d8.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_203d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_203d8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_203d8.dir/CheckSymbolExists.c.o  -o cmTC_203d8 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37ecc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37ecc.dir/build.make CMakeFiles/cmTC_37ecc.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37ecc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_37ecc.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_37ecc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37ecc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_37ecc.dir/CheckSymbolExists.c.o  -o cmTC_37ecc 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strndup exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_151dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_151dc.dir/build.make CMakeFiles/cmTC_151dc.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_151dc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_151dc.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_151dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151dc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_151dc.dir/CheckSymbolExists.c.o  -o cmTC_151dc 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strndup
+  return ((int*)(&strndup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asprintf exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b91d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b91d.dir/build.make CMakeFiles/cmTC_8b91d.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b91d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_8b91d.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8b91d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b91d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8b91d.dir/CheckSymbolExists.c.o  -o cmTC_8b91d 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asprintf
+  return ((int*)(&asprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f88f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f88f.dir/build.make CMakeFiles/cmTC_5f88f.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f88f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5f88f.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f88f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f88f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5f88f.dir/CheckSymbolExists.c.o  -o cmTC_5f88f 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setitimer exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8aba5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8aba5.dir/build.make CMakeFiles/cmTC_8aba5.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8aba5.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_8aba5.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8aba5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aba5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8aba5.dir/CheckSymbolExists.c.o  -o cmTC_8aba5 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setitimer
+  return ((int*)(&setitimer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccd99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccd99.dir/build.make CMakeFiles/cmTC_ccd99.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccd99.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ccd99.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ccd99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccd99.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ccd99.dir/CheckSymbolExists.c.o  -o cmTC_ccd99 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c05c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c05c.dir/build.make CMakeFiles/cmTC_9c05c.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c05c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_9c05c.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9c05c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c05c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c05c.dir/CheckSymbolExists.c.o  -o cmTC_9c05c 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test TYPEOF_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfa6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfa6a.dir/build.make CMakeFiles/cmTC_bfa6a.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfa6a.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DTYPEOF_WORKS   -o CMakeFiles/cmTC_bfa6a.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bfa6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfa6a.dir/link.txt --verbose=1
+/usr/bin/cc  -DTYPEOF_WORKS    -rdynamic CMakeFiles/cmTC_bfa6a.dir/src.c.o  -o cmTC_bfa6a 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int value = 0;  typeof(value) value2 = value;  return value2; }
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c7de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c7de.dir/build.make CMakeFiles/cmTC_1c7de.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c7de.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_1c7de.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c7de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c7de.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1c7de.dir/CheckSymbolExists.c.o  -o cmTC_1c7de -lrt 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MONOTONIC_CLOCK succeeded with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea1f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea1f2.dir/build.make CMakeFiles/cmTC_ea1f2.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea1f2.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_MONOTONIC_CLOCK   -o CMakeFiles/cmTC_ea1f2.dir/src.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ea1f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1f2.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MONOTONIC_CLOCK    -rdynamic CMakeFiles/cmTC_ea1f2.dir/src.c.o  -o cmTC_ea1f2 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	  #include <time.h>
+
+	  int main(void) {
+
+	    struct timespec tp;
+
+	    return (clock_gettime(CLOCK_MONOTONIC, &tp) != 0);
+
+	  }
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c9bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c9bf.dir/build.make CMakeFiles/cmTC_6c9bf.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c9bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6c9bf.dir/CheckSymbolExists.c.o   -c /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6c9bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c9bf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6c9bf.dir/CheckSymbolExists.c.o  -o cmTC_6c9bf 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_371c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_371c5.dir/build.make CMakeFiles/cmTC_371c5.dir/build
+make[1]: Entering directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_371c5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_371c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_371c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_371c5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_371c5.dir/CheckFunctionExists.c.o  -o cmTC_371c5 
+make[1]: Leaving directory '/home/jlucas/TurboVNC/benchvnc/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 5.3.0-45-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28b10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28b10.dir/build.make CMakeFiles/cmTC_28b10.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28b10.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_28b10.dir/testCCompiler.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_28b10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b10.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_28b10.dir/testCCompiler.c.o  -o cmTC_28b10 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_090f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_090f7.dir/build.make CMakeFiles/cmTC_090f7.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_090f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_090f7.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o  -o cmTC_090f7 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_090f7' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccye91G8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_090f7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_090f7' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_090f7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_090f7.dir/build.make CMakeFiles/cmTC_090f7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_090f7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_090f7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o  -o cmTC_090f7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_090f7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccye91G8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_090f7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccye91G8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_090f7] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_090f7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65e99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65e99.dir/build.make CMakeFiles/cmTC_65e99.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65e99.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_65e99.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_65e99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e99.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_65e99.dir/feature_tests.c.o  -o cmTC_65e99 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a904c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a904c.dir/build.make CMakeFiles/cmTC_a904c.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a904c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a904c.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a904c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a904c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a904c.dir/feature_tests.c.o  -o cmTC_a904c 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8818c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8818c.dir/build.make CMakeFiles/cmTC_8818c.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8818c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8818c.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8818c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8818c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8818c.dir/feature_tests.c.o  -o cmTC_8818c 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test TURBOJPEG_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcb40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcb40.dir/build.make CMakeFiles/cmTC_dcb40.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcb40.dir/src.c.o
+/usr/bin/cc  -I/opt/libjpeg-turbo/include  -DTURBOJPEG_WORKS   -o CMakeFiles/cmTC_dcb40.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dcb40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcb40.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_WORKS    -rdynamic CMakeFiles/cmTC_dcb40.dir/src.c.o  -o cmTC_dcb40 /opt/libjpeg-turbo/lib64/libturbojpeg.a 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <turbojpeg.h>
+int main(void) { tjhandle h = tjInitCompress();  return h != 0 ? 0 : 1; }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34b34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34b34.dir/build.make CMakeFiles/cmTC_34b34.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34b34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_34b34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34b34.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_34b34.dir/CheckFunctionExists.c.o  -o cmTC_34b34 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_351ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_351ac.dir/build.make CMakeFiles/cmTC_351ac.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_351ac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_351ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_351ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_351ac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_351ac.dir/CheckFunctionExists.c.o  -o cmTC_351ac 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ac78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ac78.dir/build.make CMakeFiles/cmTC_7ac78.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ac78.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_7ac78.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ac78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ac78.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_7ac78.dir/CheckFunctionExists.c.o  -o cmTC_7ac78 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02362/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02362.dir/build.make CMakeFiles/cmTC_02362.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02362.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_02362.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02362.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_02362.dir/CheckFunctionExists.c.o  -o cmTC_02362 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e21bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e21bf.dir/build.make CMakeFiles/cmTC_e21bf.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e21bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_e21bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e21bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e21bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_e21bf.dir/CheckFunctionExists.c.o  -o cmTC_e21bf 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1dead/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1dead.dir/build.make CMakeFiles/cmTC_1dead.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dead.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_1dead.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1dead
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dead.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_1dead.dir/CheckFunctionExists.c.o  -o cmTC_1dead -lICE 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test TURBOJPEG_JNI_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d2d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d2d2.dir/build.make CMakeFiles/cmTC_8d2d2.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d2d2.dir/src.c.o
+/usr/bin/cc   -DTURBOJPEG_JNI_WORKS   -o CMakeFiles/cmTC_8d2d2.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8d2d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d2d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_JNI_WORKS    -rdynamic CMakeFiles/cmTC_8d2d2.dir/src.c.o  -o cmTC_8d2d2 -Wl,-rpath,/opt/libjpeg-turbo/lib64 /opt/libjpeg-turbo/lib64/libturbojpeg.so 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	struct JNINativeInterface_;
+
+	typedef const struct JNINativeInterface_ *JNIEnv;
+
+	typedef struct _jobject *jobject;
+
+	typedef jobject jclass;
+
+	int Java_org_libjpegturbo_turbojpeg_TJ_bufSize
+
+		(JNIEnv *, jclass, int, int, int);
+
+	int main(void) {
+
+		Java_org_libjpegturbo_turbojpeg_TJ_bufSize(0, 0, 1, 1, 0);
+
+		return 0;
+
+	}
+Performing C SOURCE FILE Test FOUND_GLIBC succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a243b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a243b.dir/build.make CMakeFiles/cmTC_a243b.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a243b.dir/src.c.o
+/usr/bin/cc   -DFOUND_GLIBC   -o CMakeFiles/cmTC_a243b.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a243b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a243b.dir/link.txt --verbose=1
+/usr/bin/cc  -DFOUND_GLIBC    -rdynamic CMakeFiles/cmTC_a243b.dir/src.c.o  -o cmTC_a243b 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	#include <features.h>
+
+	#ifndef __GLIBC__
+
+	#error
+
+	#endif
+
+	int main(void) { return 0; }
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca0e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca0e7.dir/build.make CMakeFiles/cmTC_ca0e7.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca0e7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca0e7.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca0e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca0e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ca0e7.dir/CheckSymbolExists.c.o  -o cmTC_ca0e7 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d96c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d96c0.dir/build.make CMakeFiles/cmTC_d96c0.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d96c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d96c0.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d96c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96c0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d96c0.dir/CheckSymbolExists.c.o  -o cmTC_d96c0 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26056/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26056.dir/build.make CMakeFiles/cmTC_26056.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26056.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_26056.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_26056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26056.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_26056.dir/CheckSymbolExists.c.o  -o cmTC_26056 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f65ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f65ae.dir/build.make CMakeFiles/cmTC_f65ae.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f65ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f65ae.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f65ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65ae.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f65ae.dir/CheckSymbolExists.c.o  -o cmTC_f65ae 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f12d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f12d6.dir/build.make CMakeFiles/cmTC_f12d6.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f12d6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w    -o CMakeFiles/cmTC_f12d6.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f12d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f12d6.dir/link.txt --verbose=1
+/usr/bin/cc  -w     -rdynamic CMakeFiles/cmTC_f12d6.dir/CheckSymbolExists.c.o  -o cmTC_f12d6 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c6aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c6aa.dir/build.make CMakeFiles/cmTC_7c6aa.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c6aa.dir/src.c.o
+/usr/bin/cc   -DHAVE_BUILTIN_CLZ   -o CMakeFiles/cmTC_7c6aa.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7c6aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c6aa.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BUILTIN_CLZ    -rdynamic CMakeFiles/cmTC_7c6aa.dir/src.c.o  -o cmTC_7c6aa 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	unsigned int x = 11;
+
+	int main (void) {
+
+		return __builtin_clz(x);
+
+	}
+Determining if the sendmsg exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5737e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5737e.dir/build.make CMakeFiles/cmTC_5737e.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5737e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5737e.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5737e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5737e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5737e.dir/CheckSymbolExists.c.o  -o cmTC_5737e 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sendmsg
+  return ((int*)(&sendmsg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cbrt exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eef8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eef8.dir/build.make CMakeFiles/cmTC_2eef8.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eef8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2eef8.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2eef8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eef8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2eef8.dir/CheckSymbolExists.c.o  -o cmTC_2eef8 -lm 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cbrt
+  return ((int*)(&cbrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e1ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e1ed.dir/build.make CMakeFiles/cmTC_4e1ed.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e1ed.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e1ed.dir/CheckIncludeFiles.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4e1ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e1ed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4e1ed.dir/CheckIncludeFiles.c.o  -o cmTC_4e1ed 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the ffs exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a195b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a195b.dir/build.make CMakeFiles/cmTC_a195b.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a195b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_a195b.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a195b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a195b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a195b.dir/CheckSymbolExists.c.o  -o cmTC_a195b 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ffs
+  return ((int*)(&ffs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getdtablesize exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4237b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4237b.dir/build.make CMakeFiles/cmTC_4237b.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4237b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4237b.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4237b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4237b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4237b.dir/CheckSymbolExists.c.o  -o cmTC_4237b 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getdtablesize
+  return ((int*)(&getdtablesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getifaddrs exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c87bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c87bb.dir/build.make CMakeFiles/cmTC_c87bb.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c87bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_c87bb.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c87bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c87bb.dir/CheckSymbolExists.c.o  -o cmTC_c87bb 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ifaddrs.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getifaddrs
+  return ((int*)(&getifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the reallocarray exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adcf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adcf0.dir/build.make CMakeFiles/cmTC_adcf0.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adcf0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_adcf0.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_adcf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adcf0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_adcf0.dir/CheckSymbolExists.c.o  -o cmTC_adcf0 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef reallocarray
+  return ((int*)(&reallocarray))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a890c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a890c.dir/build.make CMakeFiles/cmTC_a890c.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a890c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_a890c.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a890c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a890c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a890c.dir/CheckSymbolExists.c.o  -o cmTC_a890c 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68192/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68192.dir/build.make CMakeFiles/cmTC_68192.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68192.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_68192.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68192.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68192.dir/CheckSymbolExists.c.o  -o cmTC_68192 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4bfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4bfb.dir/build.make CMakeFiles/cmTC_e4bfb.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4bfb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e4bfb.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4bfb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4bfb.dir/CheckSymbolExists.c.o  -o cmTC_e4bfb 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strndup exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e210f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e210f.dir/build.make CMakeFiles/cmTC_e210f.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e210f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e210f.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e210f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e210f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e210f.dir/CheckSymbolExists.c.o  -o cmTC_e210f 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strndup
+  return ((int*)(&strndup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asprintf exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff0a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff0a7.dir/build.make CMakeFiles/cmTC_ff0a7.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff0a7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ff0a7.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ff0a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff0a7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff0a7.dir/CheckSymbolExists.c.o  -o cmTC_ff0a7 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asprintf
+  return ((int*)(&asprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c1ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c1ad.dir/build.make CMakeFiles/cmTC_2c1ad.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c1ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_2c1ad.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c1ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c1ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2c1ad.dir/CheckSymbolExists.c.o  -o cmTC_2c1ad 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setitimer exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87acb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87acb.dir/build.make CMakeFiles/cmTC_87acb.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87acb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_87acb.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_87acb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87acb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_87acb.dir/CheckSymbolExists.c.o  -o cmTC_87acb 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setitimer
+  return ((int*)(&setitimer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50e62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50e62.dir/build.make CMakeFiles/cmTC_50e62.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50e62.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_50e62.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_50e62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e62.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_50e62.dir/CheckSymbolExists.c.o  -o cmTC_50e62 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04989/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04989.dir/build.make CMakeFiles/cmTC_04989.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04989.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_04989.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_04989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04989.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_04989.dir/CheckSymbolExists.c.o  -o cmTC_04989 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test TYPEOF_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0b60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0b60.dir/build.make CMakeFiles/cmTC_a0b60.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0b60.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DTYPEOF_WORKS   -o CMakeFiles/cmTC_a0b60.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0b60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b60.dir/link.txt --verbose=1
+/usr/bin/cc  -DTYPEOF_WORKS    -rdynamic CMakeFiles/cmTC_a0b60.dir/src.c.o  -o cmTC_a0b60 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int value = 0;  typeof(value) value2 = value;  return value2; }
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef72e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef72e.dir/build.make CMakeFiles/cmTC_ef72e.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef72e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ef72e.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ef72e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef72e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef72e.dir/CheckSymbolExists.c.o  -o cmTC_ef72e -lrt 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MONOTONIC_CLOCK succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dcac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dcac.dir/build.make CMakeFiles/cmTC_2dcac.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dcac.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_MONOTONIC_CLOCK   -o CMakeFiles/cmTC_2dcac.dir/src.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2dcac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dcac.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MONOTONIC_CLOCK    -rdynamic CMakeFiles/cmTC_2dcac.dir/src.c.o  -o cmTC_2dcac 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	  #include <time.h>
+
+	  int main(void) {
+
+	    struct timespec tp;
+
+	    return (clock_gettime(CLOCK_MONOTONIC, &tp) != 0);
+
+	  }
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0963b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0963b.dir/build.make CMakeFiles/cmTC_0963b.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0963b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0963b.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0963b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0963b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0963b.dir/CheckSymbolExists.c.o  -o cmTC_0963b 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_654d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_654d3.dir/build.make CMakeFiles/cmTC_654d3.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_654d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_654d3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_654d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654d3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_654d3.dir/CheckFunctionExists.c.o  -o cmTC_654d3 
+make[1]: Leaving directory '/home/jlucas/WeiWang/WWPJ/benchvnc/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 5.3.0-45-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79661/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79661.dir/build.make CMakeFiles/cmTC_79661.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79661.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_79661.dir/testCCompiler.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_79661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79661.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_79661.dir/testCCompiler.c.o  -o cmTC_79661 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fedab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fedab.dir/build.make CMakeFiles/cmTC_fedab.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fedab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fedab.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o  -o cmTC_fedab 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fedab' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd9Nyt0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fedab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fedab' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fedab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fedab.dir/build.make CMakeFiles/cmTC_fedab.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fedab]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fedab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o  -o cmTC_fedab ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fedab' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd9Nyt0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fedab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd9Nyt0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fedab] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_fedab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5abfe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5abfe.dir/build.make CMakeFiles/cmTC_5abfe.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5abfe.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5abfe.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5abfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5abfe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5abfe.dir/feature_tests.c.o  -o cmTC_5abfe 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22a6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22a6e.dir/build.make CMakeFiles/cmTC_22a6e.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22a6e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_22a6e.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22a6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a6e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_22a6e.dir/feature_tests.c.o  -o cmTC_22a6e 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_495eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_495eb.dir/build.make CMakeFiles/cmTC_495eb.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_495eb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_495eb.dir/feature_tests.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_495eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495eb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_495eb.dir/feature_tests.c.o  -o cmTC_495eb 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test TURBOJPEG_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_741e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_741e3.dir/build.make CMakeFiles/cmTC_741e3.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_741e3.dir/src.c.o
+/usr/bin/cc  -I/opt/libjpeg-turbo/include  -DTURBOJPEG_WORKS   -o CMakeFiles/cmTC_741e3.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_741e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_741e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_WORKS    -rdynamic CMakeFiles/cmTC_741e3.dir/src.c.o  -o cmTC_741e3 /opt/libjpeg-turbo/lib64/libturbojpeg.a 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <turbojpeg.h>
+int main(void) { tjhandle h = tjInitCompress();  return h != 0 ? 0 : 1; }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cf01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cf01.dir/build.make CMakeFiles/cmTC_7cf01.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cf01.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_7cf01.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7cf01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf01.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_7cf01.dir/CheckFunctionExists.c.o  -o cmTC_7cf01 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57965/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57965.dir/build.make CMakeFiles/cmTC_57965.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57965.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_57965.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57965.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_57965.dir/CheckFunctionExists.c.o  -o cmTC_57965 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2547d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2547d.dir/build.make CMakeFiles/cmTC_2547d.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2547d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_2547d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2547d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2547d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_2547d.dir/CheckFunctionExists.c.o  -o cmTC_2547d 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cab01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cab01.dir/build.make CMakeFiles/cmTC_cab01.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cab01.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_cab01.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cab01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cab01.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_cab01.dir/CheckFunctionExists.c.o  -o cmTC_cab01 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0507d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0507d.dir/build.make CMakeFiles/cmTC_0507d.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0507d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_0507d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0507d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0507d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_0507d.dir/CheckFunctionExists.c.o  -o cmTC_0507d 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_944af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_944af.dir/build.make CMakeFiles/cmTC_944af.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_944af.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_944af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_944af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944af.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_944af.dir/CheckFunctionExists.c.o  -o cmTC_944af -lICE 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test TURBOJPEG_JNI_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4a18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4a18.dir/build.make CMakeFiles/cmTC_f4a18.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4a18.dir/src.c.o
+/usr/bin/cc   -DTURBOJPEG_JNI_WORKS   -o CMakeFiles/cmTC_f4a18.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4a18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4a18.dir/link.txt --verbose=1
+/usr/bin/cc  -DTURBOJPEG_JNI_WORKS    -rdynamic CMakeFiles/cmTC_f4a18.dir/src.c.o  -o cmTC_f4a18 -Wl,-rpath,/opt/libjpeg-turbo/lib64 /opt/libjpeg-turbo/lib64/libturbojpeg.so 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	struct JNINativeInterface_;
+
+	typedef const struct JNINativeInterface_ *JNIEnv;
+
+	typedef struct _jobject *jobject;
+
+	typedef jobject jclass;
+
+	int Java_org_libjpegturbo_turbojpeg_TJ_bufSize
+
+		(JNIEnv *, jclass, int, int, int);
+
+	int main(void) {
+
+		Java_org_libjpegturbo_turbojpeg_TJ_bufSize(0, 0, 1, 1, 0);
+
+		return 0;
+
+	}
+Performing C SOURCE FILE Test FOUND_GLIBC succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae3d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae3d6.dir/build.make CMakeFiles/cmTC_ae3d6.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae3d6.dir/src.c.o
+/usr/bin/cc   -DFOUND_GLIBC   -o CMakeFiles/cmTC_ae3d6.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ae3d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DFOUND_GLIBC    -rdynamic CMakeFiles/cmTC_ae3d6.dir/src.c.o  -o cmTC_ae3d6 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	#include <features.h>
+
+	#ifndef __GLIBC__
+
+	#error
+
+	#endif
+
+	int main(void) { return 0; }
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d9b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d9b8.dir/build.make CMakeFiles/cmTC_2d9b8.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d9b8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2d9b8.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2d9b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d9b8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2d9b8.dir/CheckSymbolExists.c.o  -o cmTC_2d9b8 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d200e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d200e.dir/build.make CMakeFiles/cmTC_d200e.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d200e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d200e.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d200e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d200e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d200e.dir/CheckSymbolExists.c.o  -o cmTC_d200e 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_566c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_566c9.dir/build.make CMakeFiles/cmTC_566c9.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_566c9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_566c9.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_566c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_566c9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_566c9.dir/CheckSymbolExists.c.o  -o cmTC_566c9 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a48de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a48de.dir/build.make CMakeFiles/cmTC_a48de.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a48de.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a48de.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a48de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a48de.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a48de.dir/CheckSymbolExists.c.o  -o cmTC_a48de 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27179/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27179.dir/build.make CMakeFiles/cmTC_27179.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27179.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w    -o CMakeFiles/cmTC_27179.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_27179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27179.dir/link.txt --verbose=1
+/usr/bin/cc  -w     -rdynamic CMakeFiles/cmTC_27179.dir/CheckSymbolExists.c.o  -o cmTC_27179 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6e60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6e60.dir/build.make CMakeFiles/cmTC_b6e60.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e60.dir/src.c.o
+/usr/bin/cc   -DHAVE_BUILTIN_CLZ   -o CMakeFiles/cmTC_b6e60.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b6e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e60.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BUILTIN_CLZ    -rdynamic CMakeFiles/cmTC_b6e60.dir/src.c.o  -o cmTC_b6e60 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	unsigned int x = 11;
+
+	int main (void) {
+
+		return __builtin_clz(x);
+
+	}
+Determining if the sendmsg exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1331a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1331a.dir/build.make CMakeFiles/cmTC_1331a.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1331a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1331a.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1331a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1331a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1331a.dir/CheckSymbolExists.c.o  -o cmTC_1331a 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sendmsg
+  return ((int*)(&sendmsg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cbrt exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a9db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a9db.dir/build.make CMakeFiles/cmTC_3a9db.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a9db.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3a9db.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a9db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a9db.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a9db.dir/CheckSymbolExists.c.o  -o cmTC_3a9db -lm 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cbrt
+  return ((int*)(&cbrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_747da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_747da.dir/build.make CMakeFiles/cmTC_747da.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_747da.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_747da.dir/CheckIncludeFiles.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_747da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_747da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_747da.dir/CheckIncludeFiles.c.o  -o cmTC_747da 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+
+Determining if the ffs exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_060cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_060cc.dir/build.make CMakeFiles/cmTC_060cc.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_060cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_060cc.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_060cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_060cc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_060cc.dir/CheckSymbolExists.c.o  -o cmTC_060cc 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ffs
+  return ((int*)(&ffs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getdtablesize exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8627/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8627.dir/build.make CMakeFiles/cmTC_f8627.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8627.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_f8627.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f8627
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8627.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f8627.dir/CheckSymbolExists.c.o  -o cmTC_f8627 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getdtablesize
+  return ((int*)(&getdtablesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getifaddrs exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f58c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f58c8.dir/build.make CMakeFiles/cmTC_f58c8.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f58c8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_f58c8.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f58c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f58c8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f58c8.dir/CheckSymbolExists.c.o  -o cmTC_f58c8 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ifaddrs.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getifaddrs
+  return ((int*)(&getifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the reallocarray exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9ccd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9ccd.dir/build.make CMakeFiles/cmTC_e9ccd.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9ccd.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e9ccd.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9ccd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9ccd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e9ccd.dir/CheckSymbolExists.c.o  -o cmTC_e9ccd 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef reallocarray
+  return ((int*)(&reallocarray))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18e6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18e6d.dir/build.make CMakeFiles/cmTC_18e6d.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18e6d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_18e6d.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_18e6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e6d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_18e6d.dir/CheckSymbolExists.c.o  -o cmTC_18e6d 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d92df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d92df.dir/build.make CMakeFiles/cmTC_d92df.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d92df.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d92df.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d92df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d92df.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d92df.dir/CheckSymbolExists.c.o  -o cmTC_d92df 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0083e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0083e.dir/build.make CMakeFiles/cmTC_0083e.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0083e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_0083e.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0083e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0083e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0083e.dir/CheckSymbolExists.c.o  -o cmTC_0083e 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strndup exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62520/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62520.dir/build.make CMakeFiles/cmTC_62520.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62520.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_62520.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_62520
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62520.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_62520.dir/CheckSymbolExists.c.o  -o cmTC_62520 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strndup
+  return ((int*)(&strndup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asprintf exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6584/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6584.dir/build.make CMakeFiles/cmTC_d6584.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6584.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d6584.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6584.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6584.dir/CheckSymbolExists.c.o  -o cmTC_d6584 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asprintf
+  return ((int*)(&asprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c1ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c1ad.dir/build.make CMakeFiles/cmTC_7c1ad.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c1ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_7c1ad.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7c1ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c1ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7c1ad.dir/CheckSymbolExists.c.o  -o cmTC_7c1ad 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setitimer exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1378/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1378.dir/build.make CMakeFiles/cmTC_e1378.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1378.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e1378.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e1378
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1378.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e1378.dir/CheckSymbolExists.c.o  -o cmTC_e1378 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setitimer
+  return ((int*)(&setitimer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dce01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dce01.dir/build.make CMakeFiles/cmTC_dce01.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dce01.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_dce01.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dce01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dce01.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dce01.dir/CheckSymbolExists.c.o  -o cmTC_dce01 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88888/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88888.dir/build.make CMakeFiles/cmTC_88888.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88888.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_88888.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88888.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88888.dir/CheckSymbolExists.c.o  -o cmTC_88888 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test TYPEOF_WORKS succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97b5b.dir/build.make CMakeFiles/cmTC_97b5b.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b5b.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DTYPEOF_WORKS   -o CMakeFiles/cmTC_97b5b.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_97b5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b5b.dir/link.txt --verbose=1
+/usr/bin/cc  -DTYPEOF_WORKS    -rdynamic CMakeFiles/cmTC_97b5b.dir/src.c.o  -o cmTC_97b5b 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int value = 0;  typeof(value) value2 = value;  return value2; }
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1119c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1119c.dir/build.make CMakeFiles/cmTC_1119c.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1119c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_1119c.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1119c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1119c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1119c.dir/CheckSymbolExists.c.o  -o cmTC_1119c -lrt 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MONOTONIC_CLOCK succeeded with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d9b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d9b5.dir/build.make CMakeFiles/cmTC_6d9b5.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d9b5.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_MONOTONIC_CLOCK   -o CMakeFiles/cmTC_6d9b5.dir/src.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d9b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d9b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MONOTONIC_CLOCK    -rdynamic CMakeFiles/cmTC_6d9b5.dir/src.c.o  -o cmTC_6d9b5 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+
+	  #include <time.h>
+
+	  int main(void) {
+
+	    struct timespec tp;
+
+	    return (clock_gettime(CLOCK_MONOTONIC, &tp) != 0);
+
+	  }
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e77d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e77d.dir/build.make CMakeFiles/cmTC_0e77d.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e77d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e77d.dir/CheckSymbolExists.c.o   -c /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0e77d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e77d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0e77d.dir/CheckSymbolExists.c.o  -o cmTC_0e77d 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+File /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41b5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41b5c.dir/build.make CMakeFiles/cmTC_41b5c.dir/build
+make[1]: Entering directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41b5c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_41b5c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41b5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41b5c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_41b5c.dir/CheckFunctionExists.c.o  -o cmTC_41b5c 
+make[1]: Leaving directory '/home/jlucas/WeiWang/project_vnc/benchvnc/CMakeFiles/CMakeTmp'
+
+

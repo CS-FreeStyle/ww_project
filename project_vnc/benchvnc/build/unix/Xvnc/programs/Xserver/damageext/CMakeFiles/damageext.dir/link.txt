@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../lib/libdamageext.a  CMakeFiles/damageext.dir/damageext.c.o
+/usr/bin/ranlib ../../../../../lib/libdamageext.a

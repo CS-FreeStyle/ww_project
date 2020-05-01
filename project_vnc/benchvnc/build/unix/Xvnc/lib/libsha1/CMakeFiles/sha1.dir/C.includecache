@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jerry/Documents/jerry/benchvnc/unix/Xvnc/lib/libsha1/libsha1.h
+stdint.h
+-
+
+/home/jerry/Documents/jerry/benchvnc/unix/Xvnc/lib/libsha1/sha1.c
+string.h
+-
+libsha1.h
+/home/jerry/Documents/jerry/benchvnc/unix/Xvnc/lib/libsha1/libsha1.h
+

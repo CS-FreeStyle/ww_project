@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../unix/include/vncauth.h
+
+/home/jerry/Documents/jerry/benchvnc/unix/vncpasswd/vncpasswd.c
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+unistd.h
+-
+errno.h
+-
+vncauth.h
+/home/jerry/Documents/jerry/benchvnc/unix/vncpasswd/vncauth.h
+X11/Xlib.h
+-
+X11/Xatom.h
+-
+stdint.h
+-
+fcntl.h
+-
+sys/time.h
+-
+

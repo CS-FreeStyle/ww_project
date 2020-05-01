@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libxshmfence.a  CMakeFiles/xshmfence.dir/src/xshmfence_alloc.c.o CMakeFiles/xshmfence.dir/src/xshmfence_pthread.c.o
+/usr/bin/ranlib ../../../../lib/libxshmfence.a

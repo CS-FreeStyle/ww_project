@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../../lib/libsync.a  CMakeFiles/sync.dir/misync.c.o CMakeFiles/sync.dir/misyncfd.c.o
+/usr/bin/ranlib ../../../../../../lib/libsync.a

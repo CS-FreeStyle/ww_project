@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/vncconnect.dir/vncconnect.c.o CMakeFiles/vncconnect.dir/vncExt.c.o  -o ../../bin/vncconnect -rdynamic -lSM -lICE -lX11 -lXext 

@@ -1,0 +1,387 @@
+Performing C SOURCE FILE Test FOUND_BSD44SOCKETS failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cddab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cddab.dir/build.make CMakeFiles/cmTC_cddab.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cddab.dir/src.c.o
+/usr/bin/cc    -DFOUND_BSD44SOCKETS   -o CMakeFiles/cmTC_cddab.dir/src.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c:13:5: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+   sa.sin_len = 0;
+     ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c:15:12: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+   return sa.sin_len;
+            ^
+CMakeFiles/cmTC_cddab.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cddab.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cddab.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cddab/fast' failed
+make: *** [cmTC_cddab/fast] Error 2
+
+Source file was:
+
+
+	#include <sys/types.h>
+
+	#include <sys/socket.h>
+
+	#include <netinet/in.h>
+
+	int main(void) {
+
+		struct sockaddr_in sa;
+
+		sa.sin_len = 0;
+
+		return sa.sin_len;
+
+	}
+Performing C SOURCE FILE Test FOUND_SVR4 failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_340a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_340a0.dir/build.make CMakeFiles/cmTC_340a0.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_340a0.dir/src.c.o
+/usr/bin/cc    -DFOUND_SVR4   -o CMakeFiles/cmTC_340a0.dir/src.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/src.c:5:3: error: #error 
+  #error
+   ^
+CMakeFiles/cmTC_340a0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_340a0.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_340a0.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_340a0/fast' failed
+make: *** [cmTC_340a0/fast] Error 2
+
+Source file was:
+
+
+	#if !defined(SVR4) && !defined(__svr4__) && !defined(__SVR4)
+
+	#error
+
+	#endif
+
+	int main(void) { return 0; }
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81649/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81649.dir/build.make CMakeFiles/cmTC_81649.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81649.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_81649.dir/CheckIncludeFiles.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_81649.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_81649.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_81649.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81649/fast' failed
+make: *** [cmTC_81649/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the getpeereid exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cd1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cd1e.dir/build.make CMakeFiles/cmTC_2cd1e.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cd1e.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_2cd1e.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘getpeereid’ undeclared (first use in this function)
+   return ((int*)(&getpeereid))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_2cd1e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2cd1e.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2cd1e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2cd1e/fast' failed
+make: *** [cmTC_2cd1e/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeereid
+  return ((int*)(&getpeereid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpeerucred exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fd0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fd0a.dir/build.make CMakeFiles/cmTC_3fd0a.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fd0a.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_3fd0a.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:19: fatal error: ucred.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_3fd0a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3fd0a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3fd0a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3fd0a/fast' failed
+make: *** [cmTC_3fd0a/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ucred.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeerucred
+  return ((int*)(&getpeerucred))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getzoneid exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87a7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87a7d.dir/build.make CMakeFiles/cmTC_87a7d.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87a7d.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_87a7d.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:18: fatal error: zone.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_87a7d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87a7d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_87a7d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87a7d/fast' failed
+make: *** [cmTC_87a7d/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zone.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getzoneid
+  return ((int*)(&getzoneid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the reallocarray exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dc9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dc9c.dir/build.make CMakeFiles/cmTC_5dc9c.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dc9c.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_5dc9c.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘reallocarray’ undeclared (first use in this function)
+   return ((int*)(&reallocarray))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_5dc9c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5dc9c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5dc9c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5dc9c/fast' failed
+make: *** [cmTC_5dc9c/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef reallocarray
+  return ((int*)(&reallocarray))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random_buf exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5c08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5c08.dir/build.make CMakeFiles/cmTC_b5c08.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5c08.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_b5c08.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random_buf’ undeclared (first use in this function)
+   return ((int*)(&arc4random_buf))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_b5c08.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5c08.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b5c08.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5c08/fast' failed
+make: *** [cmTC_b5c08/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the shmctl64 exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_662d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_662d1.dir/build.make CMakeFiles/cmTC_662d1.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_662d1.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_662d1.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:26: fatal error: sys/ipc_impl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_662d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_662d1.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_662d1.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_662d1/fast' failed
+make: *** [cmTC_662d1/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ipc_impl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shmctl64
+  return ((int*)(&shmctl64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e70a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e70a.dir/build.make CMakeFiles/cmTC_5e70a.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e70a.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_5e70a.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function)
+   return ((int*)(&strlcat))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_5e70a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5e70a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5e70a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e70a/fast' failed
+make: *** [cmTC_5e70a/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ccc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ccc2.dir/build.make CMakeFiles/cmTC_8ccc2.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ccc2.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_8ccc2.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function)
+   return ((int*)(&strlcpy))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_8ccc2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ccc2.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8ccc2.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ccc2/fast' failed
+make: *** [cmTC_8ccc2/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the timingsafe_memcmp exist failed with the following output:
+Change Dir: /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6185f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6185f.dir/build.make CMakeFiles/cmTC_6185f.dir/build
+make[1]: Entering directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6185f.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE   -o CMakeFiles/cmTC_6185f.dir/CheckSymbolExists.c.o   -c /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘timingsafe_memcmp’ undeclared (first use in this function)
+   return ((int*)(&timingsafe_memcmp))[argc];
+                   ^
+/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_6185f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6185f.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6185f.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6185f/fast' failed
+make: *** [cmTC_6185f/fast] Error 2
+
+File /home/jerry/Documents/jerry/benchvnc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timingsafe_memcmp
+  return ((int*)(&timingsafe_memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

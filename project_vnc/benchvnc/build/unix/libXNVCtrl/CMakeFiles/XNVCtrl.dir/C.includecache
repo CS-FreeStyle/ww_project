@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/NVCtrl.c
+stdint.h
+-
+stdlib.h
+-
+X11/Xlibint.h
+-
+X11/Xutil.h
+-
+X11/extensions/Xext.h
+-
+X11/extensions/extutil.h
+-
+NVCtrlLib.h
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/NVCtrlLib.h
+nv_control.h
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/nv_control.h
+
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/NVCtrl.h
+stdint.h
+-
+
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/NVCtrlLib.h
+NVCtrl.h
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/NVCtrl.h
+
+/home/jerry/Documents/jerry/benchvnc/unix/libXNVCtrl/nv_control.h
+

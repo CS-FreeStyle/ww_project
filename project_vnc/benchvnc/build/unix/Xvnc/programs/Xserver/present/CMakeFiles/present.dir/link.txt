@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../lib/libpresent.a  CMakeFiles/present.dir/present.c.o CMakeFiles/present.dir/present_event.c.o CMakeFiles/present.dir/present_fake.c.o CMakeFiles/present.dir/present_fence.c.o CMakeFiles/present.dir/present_notify.c.o CMakeFiles/present.dir/present_request.c.o CMakeFiles/present.dir/present_screen.c.o
+/usr/bin/ranlib ../../../../../lib/libpresent.a

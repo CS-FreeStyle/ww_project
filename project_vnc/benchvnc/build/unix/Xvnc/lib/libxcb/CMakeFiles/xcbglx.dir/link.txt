@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libxcbglx.a  CMakeFiles/xcbglx.dir/src/bigreq.c.o CMakeFiles/xcbglx.dir/src/glx.c.o CMakeFiles/xcbglx.dir/src/xc_misc.c.o CMakeFiles/xcbglx.dir/src/xcb_conn.c.o CMakeFiles/xcbglx.dir/src/xcb_ext.c.o CMakeFiles/xcbglx.dir/src/xcb_in.c.o CMakeFiles/xcbglx.dir/src/xcb_list.c.o CMakeFiles/xcbglx.dir/src/xcb_out.c.o CMakeFiles/xcbglx.dir/src/xcb_xid.c.o CMakeFiles/xcbglx.dir/src/xproto.c.o
+/usr/bin/ranlib ../../../../lib/libxcbglx.a

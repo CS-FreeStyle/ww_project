@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/vncconnect/vncExt.c
+stdio.h
+-
+X11/Xlib.h
+-
+X11/Xlibint.h
+-
+vncExt.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/vncconnect/vncExt.h
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/vncconnect/vncconnect.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+X11/Xlib.h
+-
+X11/Xatom.h
+-
+vncExt.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/vncconnect/vncExt.h
+
+unix/include/vncExt.h
+

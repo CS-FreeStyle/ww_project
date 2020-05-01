@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/NVCtrl.c
+stdint.h
+-
+stdlib.h
+-
+X11/Xlibint.h
+-
+X11/Xutil.h
+-
+X11/extensions/Xext.h
+-
+X11/extensions/extutil.h
+-
+NVCtrlLib.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/NVCtrlLib.h
+nv_control.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/nv_control.h
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/NVCtrl.h
+stdint.h
+-
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/NVCtrlLib.h
+NVCtrl.h
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/NVCtrl.h
+
+/home/jlucas/WeiWang/project_vnc/benchvnc/unix/libXNVCtrl/nv_control.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jerry/Documents/jerry/benchvnc/unix/vncviewer/checkshmpixmaps.c
+stdio.h
+-
+string.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+X11/Xlib.h
+-
+X11/extensions/XShm.h
+-
+X11/Xutil.h
+-
+
