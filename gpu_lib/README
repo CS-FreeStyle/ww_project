@@ -9,3 +9,44 @@ test takes 2 arguments,
     example: rtsp://127.0.0.1/live56
 
 
+
+How to use the GPU libary:
+
+The user only needs to use 5 different functions.
+  init_rtsp_stream
+  start_rtsp_stream
+  write_image_to_rtsp_stream
+  end_rtsp_stream
+  free_rtsp_stream
+
+init_rtsp_stream 
+  takes an RTSPStream object, 
+           width, 
+           height, 
+           fps, 
+           bitrate, 
+           and endpoint.
+  This will setup all of the necessary structures and codec parameters to send
+  frames to the encoder. 
+
+start_rtsp_stream
+  takes an RTSPStream object that has been initialized.
+  This simple function will establish a stream with the rtsp server
+
+write_image_to_rtsp_stream
+  takes an RTSPStream object that has been initialized and started,
+           and bgra image.
+  BMP image header is still left over and not used. Used for testing purposes.
+  For use with the VNC server only the data member needs to be set.
+
+end_rtsp_stream
+  takes an RTSPStream object that has been initialized and started.
+  This simple function will teardown the stream from the rtsp server.
+  If this function is not called the stream will remain open and the endpoint
+  unusable until the rtsp server closes the stream.
+
+free_rtsp_stream
+  takes an RTSPStream object.
+  This looks at each member of the object and frees any memory allocated to it
+  if it exists. This function should be called on error and when a stream has
+  concluded to remove any memory leaks that could occur.
