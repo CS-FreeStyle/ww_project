@@ -1,0 +1,11 @@
+REQUIRES FFMPEG and CUDA TOOLKIT
+
+execute bash_make.sh (lazy makefile)
+
+test takes 2 arguments, 
+  argument 1 is a text file with paths to BMP images 1 per line
+    example: ./BMP/0001.bmp
+  argument 2 is an rtsp endpoint to setup the stream
+    example: rtsp://127.0.0.1/live56
+
+
